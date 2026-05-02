@@ -47,7 +47,7 @@ server/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/task-manager-backend.git
+git clone https:[//github.com/your-username/task-manager-backend.git](https://github.com/SanjanaSingh1818/Task_Manager_Backend-.git)
 
 cd task-manager-backend
 
