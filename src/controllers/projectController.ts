@@ -1,7 +1,7 @@
 import { Response } from 'express';
-import { Project } from '../models/Project';
-import { Task } from '../models/Task';
-import { AuthRequest } from '../middleware/auth';
+import { Project } from '../models/Project.js';
+import { Task } from '../models/Task.js';
+import { AuthRequest } from '../middleware/auth.js';
 
 export async function getProjects(req: AuthRequest, res: Response) {
   try {

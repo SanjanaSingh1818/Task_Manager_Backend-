@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import { User } from '../models/User';
+import { User } from '../models/User.js';
 export async function signup(req, res) {
     try {
         const { email, password, name, role } = req.body;

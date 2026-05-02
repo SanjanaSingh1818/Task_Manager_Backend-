@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import type { IUser } from './User';
-import type { IProject } from './Project';
+import type { IUser } from './User.js';
+import type { IProject } from './Project.js';
 
 export interface ITask extends Document {
   title: string;

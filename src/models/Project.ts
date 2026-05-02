@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import type { IUser } from './User';
+import type { IUser } from './User.js';
 
 export interface IProject extends Document {
   title: string;

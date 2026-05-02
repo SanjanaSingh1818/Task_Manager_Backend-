@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
-import { User } from '../models/User';
-import { AuthRequest } from '../middleware/auth';
+import { User } from '../models/User.js';
+import { AuthRequest } from '../middleware/auth.js';
 
 export async function signup(req: Request, res: Response) {
   try {
